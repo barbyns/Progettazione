@@ -1,4 +1,7 @@
 package it.epicode.Progettazione;
 
-public class TipoPostazione {
+public enum TipoPostazione {
+    PRIVATO,
+    OPENSPACE,
+    SALA_RIUNIONI
 }
