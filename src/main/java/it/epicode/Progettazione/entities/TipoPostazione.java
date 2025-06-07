@@ -1,4 +1,4 @@
-package it.epicode.Progettazione;
+package it.epicode.Progettazione.entities;
 
 public enum TipoPostazione {
     PRIVATO,
