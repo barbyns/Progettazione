@@ -26,7 +26,7 @@ public class PrenotazioneService {
 
     public Prenotazione prenotaPostazione(Long userId, Postazione postazioneId, LocalDate data) {
         Utente utente = utenteRepository.findById(userId).orElseThrow();
-        Postazione postazione = postazioneRepository.findById(postazioneId).orElseThrow();
+        Postazione postazione = postazioneRepository.findById(postazioneId.getId()).orElseThrow();
 
         if (prenotazioneRepository.existsByUtenteAndDataPrenotazione(utente, data)) {
             throw new RuntimeException("L'utente ha già una prenotazione per questa data.");
@@ -42,5 +42,8 @@ public class PrenotazioneService {
         prenotazione.setDataPrenotazione(data);
 
         return prenotazioneRepository.save(prenotazione);
+    }
+
+    public Prenotazione prenota(Long id, Long id1, LocalDate now) {
     }
 }
