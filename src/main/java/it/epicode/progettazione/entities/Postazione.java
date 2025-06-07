@@ -25,6 +25,9 @@ public class Postazione {
     @ManyToOne
     private Edificio edificio;
 
+    public Postazione(String p001, String postazionePrivata, TipoPostazione tipoPostazione, int i, Edificio edificio) {
+    }
+
     public void setNumeroMassimoOccupanti(int i) {
     }
 }

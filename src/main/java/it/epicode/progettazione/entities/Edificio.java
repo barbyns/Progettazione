@@ -21,6 +21,9 @@ public class Edificio {
     private String indirizzo;
     private String città;
 
+    public Edificio(String sedeCentrale, String s, String milano) {
+    }
+
     public void setCitta(String città) {
         this.città = città;
     }

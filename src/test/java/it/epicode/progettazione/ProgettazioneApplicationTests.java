@@ -1,12 +1,8 @@
 package it.epicode.progettazione;
 
 
-import it.epicode.progettazione.repository.*;
+import it.epicode.progettazione.entities.*;
 import it.epicode.progettazione.services.PrenotazioneService;
-import it.epicode.progettazione.entities.Edificio;
-import it.epicode.progettazione.entities.Postazione;
-import it.epicode.progettazione.entities.Prenotazione;
-import it.epicode.progettazione.entities.Utente;
 import it.epicode.progettazione.repository.PostazioneRepository;
 import it.epicode.progettazione.repository.UtenteRepository;
 import org.junit.jupiter.api.Test;
@@ -18,7 +14,7 @@ import java.time.LocalDate;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-public class PrenotazioneServiceTest {
+public class ProgettazioneApplicationTests {
 
 	@Autowired
 	private PrenotazioneService prenotazioneService;

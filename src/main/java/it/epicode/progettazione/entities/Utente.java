@@ -20,4 +20,7 @@ public class Utente {
     private String username;
     private String nomeCompleto;
     private String email;
+
+    public Utente(String mrossi, String marioRossi, String mail) {
+    }
 }
