@@ -1,4 +1,4 @@
-package it.epicode.Progettazione.entities;
+package it.epicode.progettazione.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -12,12 +12,12 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Edificio {
+public class Utente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String nome;
-    private String indirizzo;
-    private String città;
+    private String username;
+    private String nomeCompleto;
+    private String email;
 }

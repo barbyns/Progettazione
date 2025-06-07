@@ -1,7 +1,7 @@
-package it.epicode.Progettazione.Repository;
+package it.epicode.progettazione.Repository;
 
-import it.epicode.Progettazione.entities.Postazione;
-import it.epicode.Progettazione.entities.TipoPostazione;
+import it.epicode.progettazione.entities.Postazione;
+import it.epicode.progettazione.entities.TipoPostazione;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

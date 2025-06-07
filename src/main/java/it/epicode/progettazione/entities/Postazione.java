@@ -1,4 +1,4 @@
-package it.epicode.Progettazione.entities;
+package it.epicode.progettazione.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -24,4 +24,7 @@ public class Postazione {
 
     @ManyToOne
     private Edificio edificio;
+
+    public void setNumeroMassimoOccupanti(int i) {
+    }
 }

@@ -1,4 +1,4 @@
-package it.epicode.Progettazione.entities;
+package it.epicode.progettazione.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

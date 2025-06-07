@@ -1,12 +1,12 @@
-package it.epicode.Progettazione.Configur;
+package it.epicode.progettazione.Configur;
 
-import it.epicode.Progettazione.Repository.EdificioRepository;
-import it.epicode.Progettazione.Repository.PostazioneRepository;
-import it.epicode.Progettazione.Repository.UtenteRepository;
-import it.epicode.Progettazione.entities.Edificio;
-import it.epicode.Progettazione.entities.Postazione;
-import it.epicode.Progettazione.entities.TipoPostazione;
-import it.epicode.Progettazione.entities.Utente;
+import it.epicode.progettazione.Repository.EdificioRepository;
+import it.epicode.progettazione.Repository.PostazioneRepository;
+import it.epicode.progettazione.Repository.UtenteRepository;
+import it.epicode.progettazione.entities.Edificio;
+import it.epicode.progettazione.entities.Postazione;
+import it.epicode.progettazione.entities.TipoPostazione;
+import it.epicode.progettazione.entities.Utente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

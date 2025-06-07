@@ -1,4 +1,4 @@
-package it.epicode.Progettazione.entities;
+package it.epicode.progettazione.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -12,12 +12,20 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Utente {
+public class Edificio {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String username;
-    private String nomeCompleto;
-    private String email;
+    private String nome;
+    private String indirizzo;
+    private String città;
+
+    public void setCitta(String città) {
+        this.città = città;
+    }
+
+    public String getCitta() {
+        return citta;
+    }
 }

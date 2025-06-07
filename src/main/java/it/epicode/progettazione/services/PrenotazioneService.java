@@ -1,13 +1,12 @@
-package it.epicode.Progettazione.services;
+package it.epicode.progettazione.services;
 
-import it.epicode.Progettazione.Repository.PostazioneRepository;
-import it.epicode.Progettazione.Repository.PrenotazioneRepository;
-import it.epicode.Progettazione.Repository.UtenteRepository;
-import it.epicode.Progettazione.entities.Postazione;
-import it.epicode.Progettazione.entities.Prenotazione;
-import it.epicode.Progettazione.entities.Utente;
+import it.epicode.progettazione.Repository.PostazioneRepository;
+import it.epicode.progettazione.Repository.PrenotazioneRepository;
+import it.epicode.progettazione.Repository.UtenteRepository;
+import it.epicode.progettazione.entities.Postazione;
+import it.epicode.progettazione.entities.Prenotazione;
+import it.epicode.progettazione.entities.Utente;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
