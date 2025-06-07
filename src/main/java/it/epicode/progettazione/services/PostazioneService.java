@@ -1,6 +1,6 @@
 package it.epicode.progettazione.services;
 
-import it.epicode.progettazione.Repository.PostazioneRepository;
+import it.epicode.progettazione.repository.PostazioneRepository;
 import it.epicode.progettazione.entities.Postazione;
 import it.epicode.progettazione.entities.TipoPostazione;
 import org.springframework.beans.factory.annotation.Autowired;

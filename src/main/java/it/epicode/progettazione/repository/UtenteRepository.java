@@ -1,4 +1,4 @@
-package it.epicode.progettazione.Repository;
+package it.epicode.progettazione.repository;
 
 import it.epicode.progettazione.entities.Utente;
 import org.springframework.data.jpa.repository.JpaRepository;

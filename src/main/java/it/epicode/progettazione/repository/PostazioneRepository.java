@@ -1,4 +1,4 @@
-package it.epicode.progettazione.Repository;
+package it.epicode.progettazione.repository;
 
 import it.epicode.progettazione.entities.Postazione;
 import it.epicode.progettazione.entities.TipoPostazione;

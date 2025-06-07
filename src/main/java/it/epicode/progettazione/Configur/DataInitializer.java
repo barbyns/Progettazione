@@ -1,8 +1,8 @@
 package it.epicode.progettazione.Configur;
 
-import it.epicode.progettazione.Repository.EdificioRepository;
-import it.epicode.progettazione.Repository.PostazioneRepository;
-import it.epicode.progettazione.Repository.UtenteRepository;
+import it.epicode.progettazione.repository.EdificioRepository;
+import it.epicode.progettazione.repository.PostazioneRepository;
+import it.epicode.progettazione.repository.UtenteRepository;
 import it.epicode.progettazione.entities.Edificio;
 import it.epicode.progettazione.entities.Postazione;
 import it.epicode.progettazione.entities.TipoPostazione;

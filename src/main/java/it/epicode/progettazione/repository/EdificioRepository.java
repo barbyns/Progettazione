@@ -1,4 +1,4 @@
-package it.epicode.progettazione.Repository;
+package it.epicode.progettazione.repository;
 
 import it.epicode.progettazione.entities.Edificio;
 import org.springframework.data.jpa.repository.JpaRepository;

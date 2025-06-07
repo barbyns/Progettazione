@@ -1,8 +1,8 @@
 package it.epicode.progettazione.services;
 
-import it.epicode.progettazione.Repository.PostazioneRepository;
-import it.epicode.progettazione.Repository.PrenotazioneRepository;
-import it.epicode.progettazione.Repository.UtenteRepository;
+import it.epicode.progettazione.repository.PostazioneRepository;
+import it.epicode.progettazione.repository.PrenotazioneRepository;
+import it.epicode.progettazione.repository.UtenteRepository;
 import it.epicode.progettazione.entities.Postazione;
 import it.epicode.progettazione.entities.Prenotazione;
 import it.epicode.progettazione.entities.Utente;
@@ -24,7 +24,7 @@ public class PrenotazioneService {
 
     private PostazioneRepository postazioneRepository;
 
-    public Prenotazione prenotaPostazione(Long userId, Long postazioneId, LocalDate data) {
+    public Prenotazione prenotaPostazione(Long userId, Postazione postazioneId, LocalDate data) {
         Utente utente = utenteRepository.findById(userId).orElseThrow();
         Postazione postazione = postazioneRepository.findById(postazioneId).orElseThrow();
 
